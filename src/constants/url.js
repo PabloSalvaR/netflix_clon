@@ -6,7 +6,12 @@ const requests = {
     discoverTv : `/discover/tv?api_key=${apiKey}&language=en-US&sort_by=popularity.desc&page=1`
 }
 
-export default {
+const imgBaseUrl = 'https://image.tmdb.org/t/p'
+
+
+
+export {
     baseUrl,
-    requests
+    requests,
+    imgBaseUrl
 }

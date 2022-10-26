@@ -1,8 +1,10 @@
 import './App.css';
+import Borrador from './components/BorradorSanti/Borrador';
+import Borrador2 from './components/BorradorSanti/Borrador2';
 
 function App() {
   return (
-    <h1>Hola estoy en dev</h1>
+    <Borrador/>
   );
 }
 

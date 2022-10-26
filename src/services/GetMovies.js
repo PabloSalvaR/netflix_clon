@@ -1,6 +1,6 @@
 import axios from "axios"
-import url from "../constants/url"
+import {baseUrl, requests} from "../constants/url"
 
-const fetchTmdb = async (url) => {
-    return axios.get(`${url}`)
+const fetchTmdb = async (baseUrl) => {
+    return axios.get(`${baseUrl}`)
 }
